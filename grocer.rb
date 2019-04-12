@@ -101,11 +101,11 @@ end
 def checkout(cart, coupons)
   cart_total = 0.00
   checkout_cart = consolidate_cart(cart)
-  binding.pry
+  #binding.pry
   checkout_cart = apply_coupons(checkout_cart, coupons)
-  binding.pry
+  #binding.pry
   checkout_cart = apply_clearance(checkout_cart)
-  binding.pry
+  #binding.pry
 
   checkout_cart.each {|item, data|
     cart_total += data[:count] * data[:price]
