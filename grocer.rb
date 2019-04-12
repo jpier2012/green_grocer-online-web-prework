@@ -115,4 +115,3 @@ def checkout(cart, coupons)
     cart_total *= 0.9
   end
 end
-
