@@ -116,4 +116,3 @@ def checkout(cart, coupons)
   end
 end
 
-puts checkout(cart_list, coupons_list)
